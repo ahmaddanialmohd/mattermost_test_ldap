@@ -16,7 +16,7 @@
         "Enable": true,
         "EnableSync": true,
         "LdapServer": "127.0.0.1",
-        "LdapPort": 389,
+        "LdapPort": 10389,
         "ConnectionSecurity": "",
         "BaseDN": "ou=people,dc=planetexpress,dc=com",
         "BindUsername": "cn=admin,dc=planetexpress,dc=com",
