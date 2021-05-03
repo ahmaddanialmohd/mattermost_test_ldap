@@ -15,7 +15,7 @@ service mysql restart
 
 echo 'Setting up Test LDAP'
 docker pull rroemhild/test-openldap
-docker run --privileged -d -p 389:389 rroemhild/test-openldap
+docker run --restart always --name=ldap -p 10389:10389 -p 10636:10636 -d rroemhild/test-openldap
 
 sed -i 's/MATTERMOST_PASSWORD/#MATTERMOST_PASSWORD/' /vagrant/db_setup.sql
 echo "Setting up database"
