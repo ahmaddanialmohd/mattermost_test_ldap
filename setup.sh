@@ -63,9 +63,14 @@ bin/mattermost user create --email admin@planetexpress.com --username admin --pa
 bin/mattermost team create --name stussy --display_name "Stussy" --email "admin@planetexpress.com"
 bin/mattermost team create --name undefeated --display_name "Undefeated" --email "admin@planetexpress.com"
 bin/mattermost team create --name supreme --display_name "Supreme" --email "admin@planetexpress.com"
+
 bin/mattermost team add stussy admin@planetexpress.com
 bin/mattermost team add undefeated admin@planetexpress.com
 bin/mattermost team add supreme admin@planetexpress.com
+
+bin/mattermost team stussy --public
+bin/mattermost team undefeated --public
+bin/mattermost team supreme --public
 
 service mysql start
 service mattermost start
