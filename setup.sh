@@ -68,9 +68,9 @@ bin/mattermost team add stussy admin@planetexpress.com
 bin/mattermost team add undefeated admin@planetexpress.com
 bin/mattermost team add supreme admin@planetexpress.com
 
-bin/mattermost team stussy --public
-bin/mattermost team undefeated --public
-bin/mattermost team supreme --public
+bin/mattermost team modify stussy --public
+bin/mattermost team modify undefeated --public
+bin/mattermost team modify supreme --public
 
 service mysql start
 service mattermost start
