@@ -5,7 +5,7 @@
         "ExperimentalLdapGroupSync": true
     },
     "TeamSettings": {
-        "SiteName": "Planet Express",
+        "SiteName": "Mattermost Support",
         "ExperimentalPrimaryTeam": ""
     },
     "SqlSettings": {
