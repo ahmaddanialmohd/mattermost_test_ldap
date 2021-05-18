@@ -60,9 +60,9 @@ systemctl daemon-reload
 cd /opt/mattermost
 
 bin/mattermost user create --email admin@planetexpress.com --username admin --password admin --system_admin
-bin/mattermost team create --name planet-express --display_name "Planet Express" --email "admin@planetexpress.com"
-bin/mattermost team create --name olympus --display_name "Administrative Staff" --email "admin@planetexpress.com"
-bin/mattermost team create --name ship-crew --display_name "Ship's Crew" --email "admin@planetexpress.com"
+bin/mattermost team create --name planet-express --display_name "Stussy" --email "admin@planetexpress.com"
+bin/mattermost team create --name olympus --display_name "Undefeated" --email "admin@planetexpress.com"
+bin/mattermost team create --name ship-crew --display_name "Supreme" --email "admin@planetexpress.com"
 bin/mattermost team add planet-express admin@planetexpress.com
 bin/mattermost team add olympus admin@planetexpress.com
 
